@@ -1,4 +1,5 @@
 <?php
+//mencari jumlah huruf vocal dalam 1 kalimat
 function hitung_vocal($teks) {
   $teks_mentah = trim($teks); //buang spasi di awal dan akhir
   $teks = str_replace(" ", "", $teks_mentah); //buang spasi yang ada di tengah kata
